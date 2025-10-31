@@ -11,15 +11,6 @@ export type LocaleDefinition = {
 
 const LOCALE_DEFINITIONS = [
   {
-    code: 'en',
-    label: 'English',
-    nativeLabel: 'English',
-    langTag: 'en',
-    ogLocale: 'en',
-    flag: '🇬🇧',
-    dir: 'ltr',
-  },
-  {
     code: 'zh',
     label: 'Chinese',
     nativeLabel: '中文',
@@ -28,6 +19,15 @@ const LOCALE_DEFINITIONS = [
     flag: '🇨🇳',
     dir: 'ltr',
     isDefault: true,
+  },
+  {
+    code: 'en',
+    label: 'English',
+    nativeLabel: 'English',
+    langTag: 'en',
+    ogLocale: 'en',
+    flag: '🇬🇧',
+    dir: 'ltr',
   },
 ] as const satisfies readonly LocaleDefinition[];
 
