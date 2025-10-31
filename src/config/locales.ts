@@ -20,15 +20,6 @@ const LOCALE_DEFINITIONS = [
     dir: 'ltr',
   },
   {
-    code: 'ru',
-    label: 'Russian',
-    nativeLabel: 'Русский',
-    langTag: 'ru',
-    ogLocale: 'ru',
-    flag: '🇷🇺',
-    dir: 'ltr',
-  },
-  {
     code: 'zh',
     label: 'Chinese',
     nativeLabel: '中文',
