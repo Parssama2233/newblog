@@ -19,7 +19,7 @@ const siteConfig: SiteConfig = {
       en: 'Sereja',
       ru: 'Серёжа',
     },
-    email: 'demo@morethan-log.com',
+    email: 'hello.WindHolm@outlook.com',
     avatar: '/img/avatar.svg',
     bio: {
       en: 'Full-stack developer passionate about creating beautiful and functional web applications. Building with Astro, React, and modern web technologies.',
