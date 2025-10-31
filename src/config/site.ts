@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from './locales';
 
 const siteConfig: SiteConfig = {
   // Basic site information
-  siteUrl: 'https://morethan-log-astro.sereja.com',
+  siteUrl: 'http://windholm.dpdns.org',
   title: {
     en: 'Morethan-Log',
     ru: 'Morethan-Log',
