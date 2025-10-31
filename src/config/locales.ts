@@ -18,7 +18,6 @@ const LOCALE_DEFINITIONS = [
     ogLocale: 'en',
     flag: '🇬🇧',
     dir: 'ltr',
-    isDefault: true,
   },
   {
     code: 'ru',
@@ -28,6 +27,16 @@ const LOCALE_DEFINITIONS = [
     ogLocale: 'ru',
     flag: '🇷🇺',
     dir: 'ltr',
+  },
+  {
+    code: 'zh',
+    label: 'Chinese',
+    nativeLabel: '中文',
+    langTag: 'zh-CN',
+    ogLocale: 'zh_CN',
+    flag: '🇨🇳',
+    dir: 'ltr',
+    isDefault: true,
   },
 ] as const satisfies readonly LocaleDefinition[];
 
