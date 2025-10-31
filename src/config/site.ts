@@ -40,8 +40,8 @@ const siteConfig: SiteConfig = {
         ru: 'GitHub',
       },
       url: {
-        en: 'https://github.com/yourusername',
-        ru: 'https://github.com/yourusername-ru',
+        en: 'https://github.com/Parssama2233',
+        ru: 'https://github.com/Parssama2233-ru',
       },
       iconSvg: `<svg
   stroke="currentColor"
