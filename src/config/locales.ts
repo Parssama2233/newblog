@@ -11,22 +11,22 @@ export type LocaleDefinition = {
 
 const LOCALE_DEFINITIONS = [
   {
-    code: 'en',
-    label: 'English',
-    nativeLabel: 'English',
-    langTag: 'en',
-    ogLocale: 'en',
+    code: 'zh',
+    label: 'Chinese',
+    nativeLabel: 'Chinese',
+    langTag: 'zh',
+    ogLocale: 'zh',
     flag: '🇬🇧',
     dir: 'ltr',
     isDefault: true,
   },
   {
-    code: 'ru',
-    label: 'Russian',
-    nativeLabel: 'Русский',
-    langTag: 'ru',
+    code: 'en',
+    label: 'English',
+    nativeLabel: 'English',
+    langTag: 'en',
     ogLocale: 'ru',
-    flag: '🇷🇺',
+    flag: 'RU',
     dir: 'ltr',
   },
 ] as const satisfies readonly LocaleDefinition[];
