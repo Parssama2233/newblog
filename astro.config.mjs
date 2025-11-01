@@ -10,7 +10,7 @@ const { siteUrl, defaultLanguage, languages } = siteConfig;
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://windholm.dpdns.org/',
+  site: 'https://newblog1.pages.dev/',
   output: 'static',
   trailingSlash: 'always',
   i18n: {
